@@ -1,0 +1,30 @@
+.container {
+  padding: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  margin-bottom: 32px;
+  border: none;
+  background-color: cadetblue;
+  width: 128px;
+  height: 48px;
+  border-radius: 2px;
+  color: #fff;
+}
+.checkbox {
+  width: 256px;
+  height: 256px;
+  border-radius: 36px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cecce2;
+}
+.inner {
+  background-color: #fff;
+  transition: all ease 250ms;
+}
